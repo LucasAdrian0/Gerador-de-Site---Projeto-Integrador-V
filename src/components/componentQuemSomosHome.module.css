@@ -1,0 +1,61 @@
+.containerPrincipalQuemSomos{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.containerDaImagemQuemSomos{
+    max-width: 584px;
+    height: 551px;
+    margin-right: 20px;
+    overflow-y: hidden; 
+}
+
+.containerDaImagemQuemSomos img{
+    max-width: 584px;
+    height: 551px; 
+    border-radius: 5px;
+    overflow-y: hidden; 
+}
+
+.containerTextoSomosNos{
+    max-width: 535.22px;
+    margin-top: 160px;
+}
+
+.containerTextoSomosNos h2{
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #343A40;
+}
+
+.containerTextoSomosNos p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    color: #343A40;
+}
+
+.containerTextoSomosNos button{
+    display: flex;
+    
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #343A40;
+
+    padding: 20px;
+    background-color: #F4BC74;
+}
+
+.containerTextoSomosNos button:hover{
+    background-color: #e9a852;
+}
+
+.containerTextoSomosNos button img{
+    margin-left: 10px;
+}

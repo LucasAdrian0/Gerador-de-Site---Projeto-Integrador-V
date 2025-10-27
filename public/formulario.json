@@ -1,0 +1,56 @@
+{
+  "logo": "/Assets/logoEmpresa.jpg",
+  "services": [
+      { 
+          "id": 1, 
+          "title": "Desenvolvimento Web", 
+          "description": "Criação de sites modernos e responsivos.",
+          "image": "/Assets/servicos/web.jpg" 
+      },
+      { 
+          "id": 2, 
+          "title": "Apps Mobile", 
+          "description": "Aplicativos personalizados para Android e iOS.",
+          "image": "/Assets/servicos/mobile.jpg" 
+      },
+      { 
+          "id": 3, 
+          "title": "Gestão de Mídias", 
+          "description": "Gerenciamento estratégico para redes sociais.",
+          "image": "/Assets/servicos/midias.jpg" 
+      },
+      { 
+          "id": 4, 
+          "title": "E-commerce", 
+          "description": "Lojas virtuais com integração de pagamento.",
+          "image": "/Assets/servicos/ecommerce.jpg" 
+      },
+      { 
+          "id": 5, 
+          "title": "SEO & Marketing", 
+          "description": "Otimização e campanhas digitais.",
+          "image": "/Assets/servicos/seo.jpg" 
+      }
+  ],
+  "publicoAlvo": [
+      { "id": 1, "text": "Empresas que buscam digitalização" },
+      { "id": 2, "text": "Empreendedores que querem um app" },
+      { "id": 3, "text": "Negócios que desejam maior presença online" }
+  ],
+  "segmentos": [
+      "Comércio Local",
+      "Salão de Cabeleireiro",
+      "Pet Shop",
+      "Restaurantes",
+      "Escritórios"
+  ],
+  "textos": {
+      "principalServico": "Na G7 Design Tech, oferecemos soluções completas para desenvolvimento de sistemas, aplicativos e websites, garantindo inovação e alta performance para nossos clientes.",
+      "quemSomos": "A G7 Design Tech é uma empresa inovadora especializada em design, gestão de mídias sociais e tecnologia. Nossa missão é transformar ideias em realidade e impulsionar negócios no mundo digital.",
+      "contato": {
+          "endereco": "Rua Exemplo, 123 - Santa Cruz do Rio Pardo, SP",
+          "email": "gg405246@gmail.com",
+          "telefone": "(14) 99785-8866"
+      }
+  }
+}

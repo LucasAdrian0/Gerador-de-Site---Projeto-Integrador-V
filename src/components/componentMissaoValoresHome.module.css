@@ -1,0 +1,88 @@
+.containerPrincipalMissaoValores {
+    display: flex;
+    
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.containerPrincipalMissaoValores h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #343A40;
+    margin-bottom: 10px;
+}
+
+.txtApresentacao{
+    font-size: 18px;
+    font-weight: 400;
+    color: #343A40;
+    line-height: 1.5;
+}
+
+.container01MissaoValores {
+    max-width: 570px;
+    margin-right: 75px;
+}
+
+.subContainerMissaoValores {
+    display: flex;
+    align-items: center;
+    padding-bottom: 35px;
+    border-bottom: 2px solid #F4BC74;
+
+    margin-top: 25px;
+}
+
+.subContainerMissaoValores img {
+    margin-right: 20px;
+}
+
+.subContainerMissaoValores h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #343A40;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
+.subContainerMissaoValores p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #343A40;
+    line-height: 1.5;
+}
+
+.container02MissaoValores{
+    max-width: 560px;
+}
+.container02MissaoValores img{
+    max-width: 100%;
+}
+
+.textoMissaoContainer2{
+    max-width: 560px;
+    border-left: 2px solid #F4BC74;
+    border-right: 2px solid #F4BC74;
+    border-bottom: 2px solid #F4BC74;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-top: -5px;
+
+    padding: 40px 30px 75px 30px;
+}
+
+.textoMissaoContainer2 h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #343A40;
+
+    margin-bottom: 35px;
+}
+
+.textoMissaoContainer2 p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #343A40;
+
+    line-height: 1.6;
+}

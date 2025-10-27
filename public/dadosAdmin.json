@@ -1,0 +1,51 @@
+{
+    "sites": [
+      {
+        "id": 1,
+        "nome": "Nexa Escritório Inteligente",
+        "status": "Ativo",
+        "criacao": "10/06/2023",
+        "url": "mauro-roque.github.io/template_exemplo04/",
+        "visitas": 1567
+      },
+      {
+        "id": 2,
+        "nome": "Padoca do Zeca",
+        "status": "Ativo",
+        "criacao": "15/05/2023",
+        "url": "www.saoJose.com.br",
+        "visitas": 1245
+      },
+      {
+        "id": 3,
+        "nome": "Mecânica quatro rodas",
+        "status": "Pendente",
+        "criacao": "22/05/2023",
+        "url": "www.padariaTropical.com.br",
+        "visitas": 876
+      }
+    ],
+    "usuarios": [
+      {
+        "id": 1,
+        "nome": "Zé Matheus",
+        "email": "ze@exemplo.com",
+        "tipo": "Autor",
+        "dataCadastro": "2023-01-10",
+        "ultimoAcesso": "2023-06-28T14:30:00"
+      },
+      {
+        "id": 2,
+        "nome": "Maria Clara",
+        "email": "maria@exemplo.com",
+        "tipo": "Autor",
+        "dataCadastro": "2023-02-15",
+        "ultimoAcesso": "2023-06-27T09:15:00"
+      }
+    ],
+    "configuracoes": {
+      "nomeSistema": "Site Builder Pro",
+      "urlBase": "https://painel.sitebuilderpro.com.br",
+      "modoManutencao": false
+    }
+  }

@@ -1,0 +1,319 @@
+/* formularioLogin.module.css */
+.container {
+    font-family: 'Poppins', sans-serif;
+}
+
+.black {
+    position: absolute;
+    width: 100%;
+    height: 368px;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background-color: #F4BC74;
+}
+
+.header {
+    max-width: 736px;
+    margin: 80px auto 45px auto;
+    padding-left: 10px;
+}
+
+.title {
+    font: bold 36px 'Archivo', sans-serif;
+    color: #343A40;
+    margin-bottom: 24px;
+}
+
+.subtitle {
+    font: normal 16px 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.main {
+    max-width: 736px;
+    margin: 0 auto 1px auto;
+    border-radius: 8px 8px 0 0;
+    background-color: #FAFAFC;
+}
+
+.form {
+    padding: 64px;
+}
+
+.fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.titulo {
+    font: 600 24px 'Archivo', sans-serif;
+    color: #4F4565;
+    margin-bottom: 24px;
+}
+
+.titulo_dois {
+    margin-top: 24px;
+}
+
+.legend {
+    display: block;
+    width: 100%;
+}
+
+.borda {
+    width: 100%;
+    height: 1px;
+    background-color: #E6E6F0;
+    margin-bottom: 24px;
+}
+
+.borda19px {
+    width: 100%;
+    height: 1px;
+    background-color: #E6E6F0;
+    margin-bottom: 19px;
+}
+
+.formGroup {
+    margin-bottom: 24px;
+}
+
+.label {
+    font: normal 14px 'Poppins', sans-serif;
+    color: #4E4958;
+    display: block;
+}
+
+.span {
+    font: normal 12px 'Poppins', sans-serif;
+    color: #C1BCCC;
+    margin-left: 12px;
+}
+
+.item_padrao {
+    width: 100%;
+    height: 56px;
+    margin-top: 8px;
+    padding: 5px;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.textarea {
+    width: 100%;
+    height: 168px;
+    margin-top: 8px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    font-family: 'Poppins', sans-serif;
+    resize: vertical;
+}
+
+.container_checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.item_checkbox {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+.item_labelcheck {
+    font: normal 14px 'Poppins', sans-serif;
+    color: #4E4958;
+}
+
+.section_date {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.dateGroup {
+    flex: 1;
+    min-width: 0;
+}
+
+.label_date_todos3 {
+    font: normal 14px 'Poppins', sans-serif;
+    color: #4E4958;
+    display: block;
+    margin-top: 5px;
+}
+
+.item_maior_date {
+    width: 100%;
+    height: 56px;
+    padding: 20px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+}
+
+.item_menor_date {
+    width: 100%;
+    height: 56px;
+    padding: 20px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+}
+
+.footer {
+    max-width: 736px;
+    height: 136px;
+    margin: 0 auto 90px auto;
+    border-radius: 0 0 8px 8px;
+    background-color: #F0F0F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item_botao {
+    width: 608px;
+    height: 56px;
+    color: white;
+    font: 600 16px 'Archivo', sans-serif;
+    border-radius: 8px;
+    background-color: #04D361;
+    cursor: pointer;
+    border: none;
+
+    margin-left: 30px;
+}
+
+.item_botao:hover {
+    background-color: #04b356;
+}
+
+.registerText{
+    margin-left: 10px;
+}
+
+/**/
+
+/* Add these to your existing formularioLogin.module.css */
+
+.termsLink {
+    color: #04D361;
+    text-decoration: none;
+}
+
+.termsLink:hover {
+    text-decoration: underline;
+}
+
+.loginText {
+    font: normal 14px 'Poppins', sans-serif;
+    color: #4E4958;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.loginLink {
+    color: #04D361;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.loginLink:hover {
+    text-decoration: underline;
+}
+
+select.item_padrao {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%234E4958'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
+    padding-right: 2.5rem;
+}
+
+.helpText {
+    font: normal 14px 'Poppins', sans-serif;
+    color: #4E4958;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.helpLink {
+    color: #04D361;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.helpLink:hover {
+    text-decoration: underline;
+}
+
+/**/
+
+/* Estilos para links de ajuda e cadastro */
+.forgotPassword {
+    
+    margin: -15px 0 24px 0;
+}
+
+.forgotLink {
+    font: normal 14px 'Poppins', sans-serif;
+    color: #4E4958;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.forgotLink:hover {
+    color: #04D361;
+    text-decoration: underline;
+}
+
+.registerText {
+    font: normal 14px 'Poppins', sans-serif;
+    color: #4E4958;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.registerLink {
+    color: #04D361;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.registerLink:hover {
+    text-decoration: underline;
+}
+
+/* Ajustes específicos para o formulário de login */
+.login .main {
+    padding-bottom: 24px;
+}
+
+.login .formGroup:last-of-type {
+    margin-bottom: 8px;
+}
+
+/* Garantir consistência com outros formulários */
+.item_labelcheck {
+    font: normal 14px 'Poppins', sans-serif;
+    color: #4E4958;
+    margin-left: 8px;
+}
+
+.item_checkbox {
+    width: 24px;
+    height: 24px;
+    accent-color: #04D361;
+}
+
+

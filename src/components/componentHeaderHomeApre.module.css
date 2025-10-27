@@ -1,0 +1,55 @@
+.containerPrincipalHeaderHomeApre {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1200px;
+    height: 520px;
+    margin: 0 auto;
+}
+
+.imagemLeaoHome {
+    max-width: 491px;
+    height: 491px;
+}
+
+.containerFilhoHome h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    overflow-y: hidden; 
+
+    margin-top: 100px;
+    color: white;
+}
+
+.containerFilhoHome {
+    max-width: 100%;
+}
+
+.containerFilhoHome p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    
+    color: white;
+}
+
+.containerFilhoHome button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #F4BC74;
+
+    border: none;
+    background: none;
+    margin-right: 5px;
+}
+
+.containerFilhoHome button:hover{
+    color: #e7a752;
+}
+
+.containerFilhoHome div{
+    display: flex;
+}
