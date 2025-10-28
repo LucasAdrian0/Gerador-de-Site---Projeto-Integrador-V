@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { useForm, Controller } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import "./FormularioEditor.css";
+import styles from './FormularioEditor.module.css';
 
 // Tipos TypeScript
 type Service = {
@@ -15,7 +15,7 @@ type Service = {
 };
 
 type PublicoAlvo = {
-  id: number;
+  id?: number; // tornou opcional
   text: string;
 };
 
@@ -47,7 +47,7 @@ const schema = yup.object().shape({
   services: yup
     .array(
       yup.object().shape({
-        id: yup.string().required('ID é obrigatório'), // Validação do campo id
+        id: yup.string().required('ID é obrigatório'),
         title: yup.string().required('Título é obrigatório'),
         description: yup.string().required('Descrição é obrigatória'),
         image: yup.string().required('Imagem é obrigatória'),
@@ -61,7 +61,10 @@ const schema = yup.object().shape({
       })
     )
     .required('Público-alvo é obrigatório'),
-  segmentos: yup.array(yup.string()).required('Segmentos são obrigatórios'),
+  segmentos: yup
+    .array()
+    .of(yup.string().required('Segmento é obrigatório')) // <-- garantir item string
+    .required('Segmentos são obrigatórios'),
   textos: yup.object().shape({
     principalServico: yup.string().required('Serviço principal é obrigatório'),
     quemSomos: yup.string().required('Quem somos é obrigatório'),
@@ -75,7 +78,7 @@ const schema = yup.object().shape({
 
 const FormularioCreateSite: React.FC = () => {
     const [previewLogo, setPreviewLogo] = useState<string | null>(null);
-    const [servicePreviews, setServicePreviews] = useState<Record<number, string>>({});
+    const [servicePreviews, setServicePreviews] = useState<Record<string, string>>({});
   
     // Configuração do react-hook-form
     const {
